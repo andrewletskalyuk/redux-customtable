@@ -3,7 +3,11 @@
   "description": null,
   "version": "0.0.36",
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "bootstrap": "^5.0.2",
     "react": "15.5.3",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "15.5.3",
     "react-redux": "5.0.6",
     "react-table": "6.5.3",
