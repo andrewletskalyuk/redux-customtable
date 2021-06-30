@@ -7,8 +7,8 @@ const data = (state = [], action) => {
     case "ADD_DATA":
       return [...state, { id: state.length + 1, name: new Date().toString() }];
     case "UPDATE_DATA":
-      console.log("UPDATE_DATA:", action);
       const result = [...state];
+      console.log("UPDATE_DATA: result", result);
       result[action.row].name = `${action.value} ${new Date().toString()}`;
       return result;
       break;

@@ -22,7 +22,7 @@ class CustomTable extends React.Component {
         Cell: (row) => {
           return <div style={null}>{row.value}</div>;
         },
-        // width: 300,
+        width: 300,
       },
       {
         Header: "Name",
@@ -58,7 +58,7 @@ class CustomTable extends React.Component {
         <MyTable
           columns={columns}
           data={this.props.data}
-          // pageSize={this.props.pageSize}
+          pageSize={this.props.pageSize}
         />
       </div>
     );
