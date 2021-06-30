@@ -3,7 +3,10 @@ export function loadData() {
 }
 
 export function changePageSize(size) {
-  return { type: "CHANGE_PAGE_SIZE", size };
+  return {
+    type: "CHANGE_PAGE_SIZE",
+    size,
+  };
 }
 
 export function addData() {
